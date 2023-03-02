@@ -269,3 +269,154 @@ h2{
     font-size: 1.5rem;
     text-align: center;
 }
+
+/* contact page */
+.section_contact{
+    width: 100%;
+    margin-top: 100px;
+    padding: 89px 0px 84px 0px;
+    background-color: #6A7B98;
+}
+
+.contact_box{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #EDF0F5AD;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.contact_div {
+    width: 50%;
+    height: 100%;
+    padding: 31px 65px 36px 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 3px solid green; */
+}
+
+
+.phone_div,
+.mail_div,
+.location_div {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.phone,
+.envelope,
+.location{
+    color: #F90E0E;
+    font-size: 2rem;
+}
+
+.phone:hover {
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 30px red);
+    
+   
+}
+
+.envelope:hover {
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 30px red);
+   
+}
+
+.location:hover {
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 30px red);
+    
+}
+
+.comunication_text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #623932;
+}
+
+.comunication_contact{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #000000A3;
+}
+
+/* form */
+
+form{
+    width: 50%;
+    padding: 32px 65px 35px 0px;
+    /* border: 5px solid red; */
+}
+
+.form_div {
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 121px; */
+
+}
+
+.form_elements{
+    width: 45%;
+    margin-bottom: 44px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #F90E0E;
+    /* border: 5px solid green; */
+
+}
+
+#fullname,
+#Email{
+    width: 100%;
+    background-color: transparent; 
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffffff;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
+
+.textarea{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 10%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+#message{
+    width: 100%;
+    font-size: 1.25rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+button[type="submit"] {
+    width: 50%;
+    height: 88px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background-color: #F90E0E;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    color: red;
+    background-color: #ffffff;
+}
+
