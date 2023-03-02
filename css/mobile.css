@@ -1,0 +1,211 @@
+@media(max-width: 430px) {
+
+    /* home page */
+header{
+    padding: 0px 15px 0 0;
+}
+    .logo{
+        width: 120px;
+        height: 60px;
+        padding: 18px 14px 18px 13px;
+        font-size: 1.25rem;
+    }
+
+    ul{
+        width: 20%;
+        position: fixed;
+        top: 60px;
+        height: 70px;
+        background-color: grey;
+        left: -101%;
+        transform: translateX(-50%);
+        flex-direction: column;
+        gap: 0;
+        justify-content: space-around;
+        text-align: center;
+
+
+    }
+    li{
+        font-size: .9rem;
+    }
+    .shoppingcart{
+        display: none;
+    }
+
+    .burgericon{
+        display: inline;
+        color: #FFFFFF;
+    }
+ 
+    /* section */
+
+    .section{
+        margin-top: 60px;
+    }
+
+    .section_title{
+        font-size: 3rem;
+    }
+
+    /* footer  */
+
+    footer {
+        padding: 30px 100px 30px 100px;
+    }
+
+    .footer_logo{
+        display: none;
+    }
+    .footer_text{
+    display: none;
+}
+    .footer_icons {
+        gap: 55px;
+    }
+
+
+
+    /* artworks page */
+
+    /* section */
+
+    .section{
+        height: 290px;
+    }
+
+    .section_box{
+        width: 98%;
+        gap: 16px;
+        padding: 7px 14px 18px 15px;
+    }
+
+    .section_text{
+        margin-top: 26px;
+        font-size: 1rem;
+    }
+
+    .artworks_section_box {
+        padding: 19px 6px 18px 6px;
+    }
+
+    .section_text {
+        width: 98%;
+        font-size: 1rem;
+    }
+
+
+    /* <!-- article --> */
+
+
+    article{
+        padding: 28px 21px 65px 21px;
+    }
+
+    h2{
+        margin-bottom: 42px;
+    }
+
+    .cards_box {
+        flex-direction: column;
+
+    }
+
+    .cards{
+        width: 100%;
+        height: 350px;
+    }
+
+    .card_text{
+        font-size: 1.5rem;
+        margin-top: 42px;
+    }
+
+    .cardss,
+    .cardsss{
+        display: none;
+    }
+
+
+
+
+    /* contact page*/
+
+
+    .section_contact{
+        padding: 40px 14px 40px 14px;
+        margin-top: 60px;
+
+    }
+
+    .contact_box {
+        width: 98%;
+        flex-direction: column;
+    }
+
+    .contact_div {
+        width: 100%;
+        padding: 24px 40px 24px 40px;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .contact_text{
+        display: none;
+    }
+
+    .phone,
+    .envelope,
+    .location{
+        font-size: 2rem;
+    }
+
+
+    /* form */
+
+    form{
+        width: 100%;
+        padding: 0px 40px 38px 40px;
+    }
+
+    .form_div {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 5%;
+        row-gap: 18px;
+
+    }
+
+    .form_elements{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 1%;
+    }
+
+    #fullname,
+    #Email{
+        margin-top: 1%;
+    }
+
+    .textarea{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 1.25rem;
+    }
+
+    .form_label{
+        font-size: 1.25rem;
+    }
+
+    .button_div{
+        width: 100%;
+        height: 78px;
+        font-size: 2.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
